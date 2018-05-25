@@ -3,6 +3,7 @@
 ## TLDR
  * A number is fizz if it is divisible by 3 
  * A number is buzz if it is divisible by 5
+ * A number is fizzbuzz if it is divisible by 3 and 5
 
 ## Roll the introduction
 I'll explore, dissect and try the different way I can resolve this kata.
