@@ -61,6 +61,12 @@
             <version>3.10.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.quicktheories</groupId>
+            <artifactId>quicktheories</artifactId>
+            <version>0.25</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
