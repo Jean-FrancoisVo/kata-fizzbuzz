@@ -24,19 +24,19 @@ class FizzBuzzTest {
     fun `Given a number divisable by 3 and 5 then return fizzbuzz`() {
         assertThat(fizzbuzz(15)).isEqualTo("fizzbuzz")
     }
+}
 
-    private fun fizzbuzz(value: Int): String {
-        val divisableBy3 = value % 3 == 0
-        val divisableBy5 = value % 5 == 0
-        if (divisableBy3 && divisableBy5) {
-            return "fizzbuzz"
-        }
-        if (divisableBy3) {
-            return "fizz"
-        }
-        if (divisableBy5) {
-            return "buzz"
-        }
-        return Integer.toString(value)
+fun fizzbuzz(value: Int): String {
+    val divisableBy3 = value % 3 == 0
+    val divisableBy5 = value % 5 == 0
+    if (divisableBy3 && divisableBy5) {
+        return "fizzbuzz"
     }
+    if (divisableBy3) {
+        return "fizz"
+    }
+    if (divisableBy5) {
+        return "buzz"
+    }
+    return Integer.toString(value)
 }
