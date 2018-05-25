@@ -17,4 +17,3 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 ### Sources
 https://codingdojo.org/kata/FizzBuzz/ 
-http://pholser.github.io/junit-quickcheck/site/0.8/usage/constraining.html
